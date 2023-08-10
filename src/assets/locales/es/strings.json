@@ -1,0 +1,23 @@
+{
+  "select_language": "Seleccione el Idioma",
+  "app_name": "Aplicación de Muestra",
+  "navigation": {
+    "home": "Hogar",
+    "admin": "Administrador",
+    "about": "Sobre Nosotros",
+    "greet": "Hola",
+    "logout": "Cerrar sesión"
+  },
+  "home": {
+    "title": "Página de Inicio",
+    "description": "Esta es solo una página de muestra"
+  },
+  "about": {
+    "title": "Sobre Nosotros Página",
+    "description": "Esta aplicación de plantilla fue creada por el equipo de soporte de aplicaciones móviles de SMOO"
+  },
+  "admin": {
+    "title": "Página de Administrador",
+    "description": "Solo los usuarios con el rol 'Mobile_Admin' podrán acceder a esta página"
+  }
+}

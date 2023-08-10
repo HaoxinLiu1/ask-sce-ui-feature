@@ -1,0 +1,80 @@
+/* ChatBot.module.css */
+/* ChatBot.module.css */
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    /* Adjust as needed */
+}
+
+.title {
+    color: black;
+}
+
+.rectangle {
+    background-color: #FED141;
+    height: 8px;
+    width: 104px;
+    margin: auto;
+}
+
+.navContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    /* Or an appropriate height for your design */
+    background-color: #FFF;
+    /* To ensure that it's not transparent and text from chat doesn't overlay */
+    z-index: 10;
+    /* Ensure it stays on top */
+}
+
+.bottomBorder {
+    border-bottom: 2px solid rgba(50, 49, 49, 0.38);
+    box-sizing: border-box;
+    margin-top: 45px;
+    width: 100%;
+    /* Ensure the border spans the full width */
+}
+
+.spacer {
+    height: 63px;
+}
+
+
+body,
+html,
+#root,
+.App {
+    /* You can target the main container div where your app gets mounted. Replace '.App' with your main container's class if it's different */
+    padding-top: 150px;
+    /* Should match the height of .navContainer */
+}
+
+.chatContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-Content: center;
+    padding-left: 100px;
+    padding-Right: 100px;
+    box-Sizing: border-box;
+    max-height: calc(100vh - 150px - 63px);
+    /* total viewport height - navContainer's height - .spacer's height */
+    overflow-y: auto;
+    /* make it scrollable on the y-axis */
+    height: calc(100vh - 150px - 63px);
+    /* total viewport height - navContainer's height - .spacer's height */
+    flex-direction: column;
+}
+
+/* Styles specific to botframework-webchat might need to be overridden differently */

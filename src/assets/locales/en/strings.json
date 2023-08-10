@@ -1,0 +1,23 @@
+{
+  "select_language": "Select Language",
+  "app_name": "Sample App",
+  "navigation": {
+    "home": "Home",
+    "admin": "Admin",
+    "about": "About Us",
+    "greet": "Hello",
+    "logout": "Logout"
+  },
+  "home": {
+    "title": "Home Page",
+    "description": "This is just a sample page"
+  },
+  "about": {
+    "title": "About Us Page",
+    "description": "This template app is created by SMOO Mobile App Support team"
+  },
+  "admin": {
+    "title": "Admin Page",
+    "description": "Only users with the role 'Mobile_Admin' will be able to access this page"
+  }
+}

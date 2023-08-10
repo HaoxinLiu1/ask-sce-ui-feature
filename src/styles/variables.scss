@@ -1,0 +1,28 @@
+$font-family: Arial, Helvetica, sans-serif;
+
+//primary colors
+$Edison_Black: #101820;
+$Edison_Green: #00664f;
+$Edison_Yellow: #fed141;
+$White: #fff;
+$Edison_Gray: #707372;
+
+//spacing
+$spacing-sm: 1em;
+$spacing-md: 2em;
+$spacing-lg: 4em;
+
+//border-radius
+$borderRadius: 1.5em;
+
+//headerHeight
+$headerHeight: 6.25em;
+$footerHeight: 3.5em;
+
+@mixin breakpoint($point) {
+  @if $point == md {
+    @media (max-width: 1294px) {
+      @content;
+    }
+  }
+}
